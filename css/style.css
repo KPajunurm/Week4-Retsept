@@ -1,0 +1,42 @@
+
+.heading {
+    color: darkcyan;
+    font-family:'Square Peg', cursive;
+}
+
+.img {
+    width: 450px;
+    margin-left: 25%;
+}
+
+body{
+    background-color: rgb(134, 33, 29);
+}
+
+.ingredients {
+    border: 2px solid goldenrod;
+    width: 15%;
+    color: goldenrod;
+    text-align: start;
+    padding: 2%;
+    font-size: 125%;
+    margin-left: 5%;
+}
+
+.instructions {
+    border: 2px solid cyan;
+    width: 40%;
+    color: cyan;
+    text-align: justify;
+    margin-left: 5%;
+}
+
+.source {
+    text-align: center;
+}
+
+.footer {
+    color: rgba(233, 6, 176, 0.719);
+    text-align: center;
+    font-size: 75%;
+}
