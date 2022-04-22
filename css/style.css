@@ -2,11 +2,31 @@
 .heading {
     color: darkcyan;
     font-family:'Square Peg', cursive;
+    animation: heading;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    position: relative;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes heading {
+    0% {left: -750px;}
+    100% {left: 150px;}
 }
 
 .img {
+    opacity: 0;
     width: 450px;
     margin-left: 25%;
+    animation: image;
+    animation-duration: 2s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes image {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 body{
@@ -21,6 +41,15 @@ body{
     padding: 2%;
     font-size: 125%;
     margin-left: 5%;
+    animation: ingredients;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+
+@keyframes ingredients {
+    0% {top: 1500px;}
+    100% {top: -455px}
 }
 
 .instructions {
@@ -29,14 +58,36 @@ body{
     color: cyan;
     text-align: justify;
     margin-left: 5%;
+    animation: instruction;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+
+@keyframes instruction {
+    0% {top: 1500px;}
+    100% {top: -450px}
 }
 
 .source {
     text-align: center;
+    animation: footer;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    position: relative;
 }
 
 .footer {
     color: rgba(233, 6, 176, 0.719);
     text-align: center;
     font-size: 75%;
+    animation: footer;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+
+@keyframes footer {
+    0% {top: 1500px;}
+    100% {top: -450px}
 }
